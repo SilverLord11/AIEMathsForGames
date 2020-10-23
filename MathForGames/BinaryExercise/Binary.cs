@@ -2,7 +2,7 @@
 
 namespace BinaryExercise
 {
-    class Program
+    class BinaryTutorial
     {
         const byte CHAINSAW = 0x01;
         const byte PISTOL = 0x01 << 1;

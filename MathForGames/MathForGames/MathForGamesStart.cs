@@ -2,7 +2,7 @@
 
 namespace MathForGames
 {
-    class Program
+    class MathForGamesStart
     {
         static void Main(string[] args)
         {
