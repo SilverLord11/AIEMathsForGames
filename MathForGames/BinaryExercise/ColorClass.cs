@@ -7,9 +7,8 @@ namespace BinaryExercise
     class ColorClass
     {
         public UInt32 colour;
-        UInt32 value = colour & 0xff000000;
-        
-        byte red = (byte)(value >> 24);
+
+        byte red = 255;
 
         public void SetRed(byte red)
         {
