@@ -16,7 +16,7 @@ namespace MathForGames
         static float mathFunction(float a, float b, float c)
         {
             Math.Sqrt(b * b + 4 * a * c);
-            float result = -b +- 2 * a;
+            float result = (float)(-b +- Math.Sqrt(b * b + 4 * a * c) / 2 * a);
             return result;
         }
     }
