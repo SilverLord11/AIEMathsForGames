@@ -32,5 +32,22 @@ namespace MathForGames
             return result;
         }
 
+        static float mathfunction(float px, float py, float pz, float qx, float qy, float qz)
+        {
+            float result = px * qx + py * qy + pz * qz;
+            return result;
+        }
+
+        static float mathFunction(float e, float f, float g, float h, float i, float j, float k)
+        {
+            float result = (float)((e * i + f * j + g * k + h) / Math.Sqrt(e * e + f * f + g * g));
+            return result;
+        }
+
+        static float mathFunction(float t, float p0, float p1, float p2, float p3)
+        {
+            float result = (((1 - t) * (1 - t) * (1 - t)) * p0) + (3 * ((1 - t) * (1 - t)) * t * p1) + (3 * (1 - t) * t * t * p2) + (t * t * t * p3);
+            return result;
+        }
     }
 }
