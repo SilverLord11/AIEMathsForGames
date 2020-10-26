@@ -7,6 +7,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MathForGames", "MathForGame
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BinaryExercise", "BinaryExercise\BinaryExercise.csproj", "{EA1A3B2A-65BA-4E97-9C4D-E63F47FA5D5C}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MatrixPractice", "MatrixPractice\MatrixPractice.csproj", "{BC50F049-7A4E-4395-893A-74547AB2FA92}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{EA1A3B2A-65BA-4E97-9C4D-E63F47FA5D5C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{EA1A3B2A-65BA-4E97-9C4D-E63F47FA5D5C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{EA1A3B2A-65BA-4E97-9C4D-E63F47FA5D5C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BC50F049-7A4E-4395-893A-74547AB2FA92}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BC50F049-7A4E-4395-893A-74547AB2FA92}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BC50F049-7A4E-4395-893A-74547AB2FA92}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BC50F049-7A4E-4395-893A-74547AB2FA92}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
